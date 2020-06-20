@@ -1,0 +1,15 @@
+import { filter, first, map } from '@dword-design/functions'
+import P from 'path'
+
+export default filename => {
+  if (P.basename(filename) === 'nuxt.config.js') {
+    const config = require(filename)
+    const modules = config.modules || []
+    return (
+      modules
+      |> map(mod => [].concat(mod) |> first)
+      |> filter(name => typeof name === 'string')
+    )
+  }
+  return []
+}
