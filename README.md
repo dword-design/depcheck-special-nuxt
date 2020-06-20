@@ -14,7 +14,7 @@
 <!-- /BADGES -->
 
 <!-- DESCRIPTION/ -->
-
+Depcheck detector that detects dependencies in nuxt modules.
 <!-- /DESCRIPTION -->
 
 <!-- INSTALL/ -->
@@ -28,6 +28,30 @@ $ npm install depcheck-special-nuxt
 $ yarn add depcheck-special-nuxt
 ```
 <!-- /INSTALL -->
+
+## Usage
+
+Custom detectors are currently only supported when using `depcheck` via the Node.js API. Simply add the detector to your depcheck config and run depcheck:
+
+```js
+import depcheck from 'depcheck'
+import nuxtDetector from 'depcheck-special-nuxt'
+
+const options = {
+  detectors: [
+    nuxtDetector,
+  ],
+}
+
+depcheck('/path/to/your/project', options, (unused) => {
+  console.log(unused.dependencies); // an array containing the unused dependencies
+  console.log(unused.devDependencies); // an array containing the unused devDependencies
+  console.log(unused.missing); // a lookup containing the dependencies missing in `package.json` and where they are used
+  console.log(unused.using); // a lookup indicating each dependency is used by which files
+  console.log(unused.invalidFiles); // files that cannot access or parse
+  console.log(unused.invalidDirs); // directories that cannot access
+})
+```
 
 <!-- LICENSE/ -->
 ## License
