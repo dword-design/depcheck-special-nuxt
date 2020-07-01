@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/dword-design/depcheck-special-nuxt/compare/v1.0.0...v1.1.0) (2020-07-01)
+
+
+### Features
+
+* support babel ([8403df9](https://github.com/dword-design/depcheck-special-nuxt/commit/8403df9949943ede36f17b69e7e4b8a8025522fc))
+
 # 1.0.0 (2020-06-20)
 
 
