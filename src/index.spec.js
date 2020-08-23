@@ -25,22 +25,6 @@ const runTest = config => () =>
   })
 
 export default {
-  valid: {
-    files: {
-      'nuxt.config.js': endent`
-        export default {
-          modules: [
-            'foo',
-          ],
-        }
-      `,
-      'package.json': JSON.stringify({
-        dependencies: {
-          foo: '^1.0.0',
-        },
-      }),
-    },
-  },
   'array syntax': {
     files: {
       'nuxt.config.js': endent`
@@ -57,16 +41,6 @@ export default {
       }),
     },
   },
-  'unused dependency': {
-    files: {
-      'package.json': JSON.stringify({
-        dependencies: {
-          foo: '^1.0.0',
-        },
-      }),
-    },
-    fail: true,
-  },
   function: {
     files: {
       'nuxt.config.js': endent`
@@ -74,6 +48,32 @@ export default {
           modules: [
             'foo',
             () => {},
+          ],
+        }
+      `,
+      'package.json': JSON.stringify({
+        dependencies: {
+          foo: '^1.0.0',
+        },
+      }),
+    },
+  },
+  'unused dependency': {
+    fail: true,
+    files: {
+      'package.json': JSON.stringify({
+        dependencies: {
+          foo: '^1.0.0',
+        },
+      }),
+    },
+  },
+  valid: {
+    files: {
+      'nuxt.config.js': endent`
+        export default {
+          modules: [
+            'foo',
           ],
         }
       `,
