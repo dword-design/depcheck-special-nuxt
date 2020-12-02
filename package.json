@@ -1,6 +1,6 @@
 {
   "name": "depcheck-special-nuxt",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Depcheck detector that detects dependencies in nuxt modules.",
   "repository": "dword-design/depcheck-special-nuxt",
   "license": "MIT",
