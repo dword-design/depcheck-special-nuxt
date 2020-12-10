@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/dword-design/depcheck-special-nuxt/compare/v1.1.2...v1.1.3) (2020-12-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency execa to v5 ([c20462b](https://github.com/dword-design/depcheck-special-nuxt/commit/c20462ba4d5373340dae915d6958f7dabfc625b2))
+
 ## [1.1.2](https://github.com/dword-design/depcheck-special-nuxt/compare/v1.1.1...v1.1.2) (2020-12-02)
 
 
