@@ -55,15 +55,15 @@ Custom detectors are currently only supported when using `depcheck` via the Node
 
 ```js
 import depcheck from 'depcheck'
-import nuxtDetector from 'depcheck-special-nuxt'
+import nuxtSpecial from 'depcheck-special-nuxt'
 
 const options = {
-  detectors: [
-    nuxtDetector,
+  specials: [
+    nuxtSpecial,
   ],
 }
 
-depcheck('/path/to/your/project', options, (unused) => {
+depcheck(process.cwd(), options, unused => {
   console.log(unused.dependencies); // an array containing the unused dependencies
   console.log(unused.devDependencies); // an array containing the unused devDependencies
   console.log(unused.missing); // a lookup containing the dependencies missing in `package.json` and where they are used
