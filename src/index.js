@@ -6,7 +6,7 @@ export default filename => {
   if (P.basename(filename) === 'nuxt.config.js') {
     babelRegister()
     const config = require(filename)
-    const modules = config.modules || []
+    const modules = [...(config.modules || []), ...(config.buildModules || [])]
     return (
       modules
       |> map(mod => [].concat(mod) |> first)

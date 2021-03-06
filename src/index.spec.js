@@ -48,6 +48,22 @@ export default {
       }),
     },
   },
+  buildModules: {
+    files: {
+      'nuxt.config.js': endent`
+        export default {
+          buildModules: [
+            'foo',
+          ],
+        }
+      `,
+      'package.json': JSON.stringify({
+        dependencies: {
+          foo: '^1.0.0',
+        },
+      }),
+    },
+  },
   function: {
     files: {
       'nuxt.config.js': endent`
@@ -65,17 +81,7 @@ export default {
       }),
     },
   },
-  'unused dependency': {
-    fail: true,
-    files: {
-      'package.json': JSON.stringify({
-        dependencies: {
-          foo: '^1.0.0',
-        },
-      }),
-    },
-  },
-  valid: {
+  modules: {
     files: {
       'nuxt.config.js': endent`
         export default {
@@ -84,6 +90,16 @@ export default {
           ],
         }
       `,
+      'package.json': JSON.stringify({
+        dependencies: {
+          foo: '^1.0.0',
+        },
+      }),
+    },
+  },
+  'unused dependency': {
+    fail: true,
+    files: {
       'package.json': JSON.stringify({
         dependencies: {
           foo: '^1.0.0',
