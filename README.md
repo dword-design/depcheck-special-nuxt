@@ -34,7 +34,7 @@
 <!-- /BADGES -->
 
 <!-- DESCRIPTION/ -->
-Depcheck detector that detects dependencies in nuxt modules.
+Depcheck special that detects dependencies in nuxt modules.
 <!-- /DESCRIPTION -->
 
 <!-- INSTALL/ -->
