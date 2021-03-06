@@ -1,3 +1,12 @@
+## [1.1.5](https://github.com/dword-design/depcheck-special-nuxt/compare/v1.1.4...v1.1.5) (2021-03-06)
+
+
+### Bug Fixes
+
+* update changed files ([cc428f6](https://github.com/dword-design/depcheck-special-nuxt/commit/cc428f6296105de7b46e3e04bc6e06724c91d15b))
+* update description ([9434d50](https://github.com/dword-design/depcheck-special-nuxt/commit/9434d50f5ba4c5cbad6d30e21f6487942874c223))
+* update readme ([894f0b0](https://github.com/dword-design/depcheck-special-nuxt/commit/894f0b0fb22dbf91e0a22457561715fc79b6fb5c))
+
 ## [1.1.4](https://github.com/dword-design/depcheck-special-nuxt/compare/v1.1.3...v1.1.4) (2021-02-17)
 
 
