@@ -51,7 +51,7 @@ $ yarn add depcheck-special-nuxt
 
 ## Usage
 
-Custom detectors are currently only supported when using `depcheck` via the Node.js API. Simply add the detector to your depcheck config and run depcheck:
+Custom specials are currently only supported when using `depcheck` via the Node.js API. Simply add the special to your depcheck config and run depcheck:
 
 ```js
 import depcheck from 'depcheck'
