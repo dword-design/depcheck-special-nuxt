@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/dword-design/depcheck-special-nuxt/compare/v1.1.5...v1.2.0) (2021-03-06)
+
+
+### Features
+
+* support buildModules ([97ffa2c](https://github.com/dword-design/depcheck-special-nuxt/commit/97ffa2c32e53fadf7e064b7abe83d3b209253af5))
+
 ## [1.1.5](https://github.com/dword-design/depcheck-special-nuxt/compare/v1.1.4...v1.1.5) (2021-03-06)
 
 
