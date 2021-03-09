@@ -6,13 +6,6 @@ import withLocalTmpDir from 'with-local-tmp-dir'
 const runTest = config => () =>
   withLocalTmpDir(async () => {
     await outputFiles({
-      '.babelrc.json': JSON.stringify(
-        {
-          extends: '@dword-design/babel-config',
-        },
-        undefined,
-        2
-      ),
       'depcheck.config.js': endent`
         const special = require('../src')
         module.exports = {

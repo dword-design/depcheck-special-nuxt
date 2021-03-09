@@ -1,11 +1,12 @@
-import babelRegister from '@babel/register'
 import { filter, first, map } from '@dword-design/functions'
+import jiti from 'jiti'
 import P from 'path'
+
+const jitiInstance = jiti(__filename)
 
 export default filename => {
   if (P.basename(filename) === 'nuxt.config.js') {
-    babelRegister()
-    const config = require(filename)
+    const config = jitiInstance(filename).default
     const modules = [...(config.modules || []), ...(config.buildModules || [])]
     return (
       modules
