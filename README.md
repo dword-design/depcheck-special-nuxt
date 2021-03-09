@@ -72,6 +72,8 @@ depcheck(process.cwd(), options, unused => {
 })
 ```
 
+See also [this minimal demo project](https://github.com/dword-design/demo-depcheck-special-nuxt) on how to use this package.
+
 <!-- LICENSE/ -->
 ## License
 
