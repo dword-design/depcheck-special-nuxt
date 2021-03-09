@@ -19,8 +19,8 @@
     "test": "base test"
   },
   "dependencies": {
-    "@babel/register": "^7.10.4",
-    "@dword-design/functions": "^1.1.2"
+    "@dword-design/functions": "^1.1.2",
+    "jiti": "^1.6.3"
   },
   "devDependencies": {
     "@dword-design/base": "^7.0.0",
