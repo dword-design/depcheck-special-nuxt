@@ -54,8 +54,8 @@ $ yarn add depcheck-special-nuxt
 Custom specials are currently only supported when using `depcheck` via the Node.js API. Simply add the special to your depcheck config and run depcheck:
 
 ```js
-import depcheck from 'depcheck'
-import nuxtSpecial from 'depcheck-special-nuxt'
+const depcheck = require('depcheck')
+const nuxtSpecial = require('depcheck-special-nuxt')
 
 const options = {
   specials: [
