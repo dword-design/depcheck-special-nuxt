@@ -89,7 +89,7 @@ See also [this minimal demo project](https://github.com/dword-design/demo-depche
 <!-- LICENSE/ -->
 ## Contribute
 
-Are you missing something or want to contribute? Feel free to file an [issue](https://github.com/dword-design/depcheck-special-nuxt/issues) or [pull request](https://github.com/dword-design/depcheck-special-nuxt/pulls)! ⚙️
+Are you missing something or want to contribute? Feel free to file an [issue](https://github.com/dword-design/depcheck-special-nuxt/issues) or a [pull request](https://github.com/dword-design/depcheck-special-nuxt/pulls)! ⚙️
 
 ## Support
 
