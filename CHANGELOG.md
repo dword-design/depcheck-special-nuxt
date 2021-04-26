@@ -1,3 +1,10 @@
+## [1.2.8](https://github.com/dword-design/depcheck-special-nuxt/compare/v1.2.7...v1.2.8) (2021-04-26)
+
+
+### Bug Fixes
+
+* update dependency with-local-tmp-dir to v3 ([#21](https://github.com/dword-design/depcheck-special-nuxt/issues/21)) ([253654d](https://github.com/dword-design/depcheck-special-nuxt/commit/253654d79e1694c9e2a264a9dc7b67daaf1ef4ca))
+
 ## [1.2.7](https://github.com/dword-design/depcheck-special-nuxt/compare/v1.2.6...v1.2.7) (2021-04-12)
 
 
