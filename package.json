@@ -29,6 +29,9 @@
     "output-files": "^1.1.16",
     "with-local-tmp-dir": "^3.0.0"
   },
+  "engines": {
+    "node": ">=12"
+  },
   "publishConfig": {
     "access": "public"
   }
