@@ -1,3 +1,19 @@
+# [2.0.0](https://github.com/dword-design/depcheck-special-nuxt/compare/v1.2.8...v2.0.0) (2021-05-03)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v8 ([#24](https://github.com/dword-design/depcheck-special-nuxt/issues/24)) ([be9a8cc](https://github.com/dword-design/depcheck-special-nuxt/commit/be9a8cc4bb25a1c1524ca4d3d609f1864b4977d2))
+
+
+### BREAKING CHANGES
+
+* require Node.js >= 12
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+Co-authored-by: Sebastian Landwehr <info@dword-design.de>
+Co-authored-by: GitHub Actions <actions@github.com>
+
 ## [1.2.8](https://github.com/dword-design/depcheck-special-nuxt/compare/v1.2.7...v1.2.8) (2021-04-26)
 
 
