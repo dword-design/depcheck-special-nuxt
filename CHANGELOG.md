@@ -1,3 +1,11 @@
+## [2.0.1](https://github.com/dword-design/depcheck-special-nuxt/compare/v2.0.0...v2.0.1) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/functions to v4 ([#25](https://github.com/dword-design/depcheck-special-nuxt/issues/25)) ([b0971e2](https://github.com/dword-design/depcheck-special-nuxt/commit/b0971e2d51c37949a1c4eac3523f60ae22a63ffd))
+* update dependency with-local-tmp-dir to v4 ([#27](https://github.com/dword-design/depcheck-special-nuxt/issues/27)) ([b1e18ad](https://github.com/dword-design/depcheck-special-nuxt/commit/b1e18ad16beda9504308b3eea915ed1108c7dcc1))
+
 # [2.0.0](https://github.com/dword-design/depcheck-special-nuxt/compare/v1.2.8...v2.0.0) (2021-05-03)
 
 
