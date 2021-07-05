@@ -3,7 +3,7 @@
   "version": "2.0.5",
   "description": "Depcheck special that detects dependencies in nuxt modules.",
   "repository": "dword-design/depcheck-special-nuxt",
-  "funding": "https://www.buymeacoffee.com/dword",
+  "funding": "https://github.com/sponsors/dword-design",
   "license": "MIT",
   "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
   "main": "dist/index.js",
