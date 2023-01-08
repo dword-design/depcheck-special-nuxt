@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/dword-design/depcheck-special-nuxt/compare/v2.0.9...v3.0.0) (2023-01-08)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#67](https://github.com/dword-design/depcheck-special-nuxt/issues/67)) ([b63e320](https://github.com/dword-design/depcheck-special-nuxt/commit/b63e320b1fc52c8fde9e0261f80c7d62a9315934))
+
+
+### BREAKING CHANGES
+
+* Drop node 12 support
+
 ## [2.0.9](https://github.com/dword-design/depcheck-special-nuxt/compare/v2.0.8...v2.0.9) (2022-01-12)
 
 
