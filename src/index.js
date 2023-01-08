@@ -2,9 +2,11 @@ import { filter, first, map } from '@dword-design/functions'
 import jiti from 'jiti'
 import P from 'path'
 
-const jitiInstance = jiti(__filename)
-
 export default filename => {
+  const jitiInstance = jiti(process.cwd(), {
+    esmResolve: true,
+    interopDefault: true,
+  })
   if (P.basename(filename) === 'nuxt.config.js') {
     const config = jitiInstance(filename).default
 
