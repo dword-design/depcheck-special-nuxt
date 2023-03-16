@@ -1,3 +1,10 @@
+## [3.0.2](https://github.com/dword-design/depcheck-special-nuxt/compare/v3.0.1...v3.0.2) (2023-03-16)
+
+
+### Bug Fixes
+
+* update dependency jiti to v1.18.2 ([4172ad5](https://github.com/dword-design/depcheck-special-nuxt/commit/4172ad54e3b53b80e69cb083cf1f457e7a442d37))
+
 ## [3.0.1](https://github.com/dword-design/depcheck-special-nuxt/compare/v3.0.0...v3.0.1) (2023-03-15)
 
 
