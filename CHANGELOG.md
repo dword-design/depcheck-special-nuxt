@@ -1,3 +1,10 @@
+## [3.0.3](https://github.com/dword-design/depcheck-special-nuxt/compare/v3.0.2...v3.0.3) (2023-03-16)
+
+
+### Bug Fixes
+
+* update dependency output-files to v2.0.12 ([c8c64f8](https://github.com/dword-design/depcheck-special-nuxt/commit/c8c64f81637be5ca03a86183feb5449ec6440989))
+
 ## [3.0.2](https://github.com/dword-design/depcheck-special-nuxt/compare/v3.0.1...v3.0.2) (2023-03-16)
 
 
