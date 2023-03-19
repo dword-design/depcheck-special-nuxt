@@ -1,3 +1,10 @@
+## [3.0.10](https://github.com/dword-design/depcheck-special-nuxt/compare/v3.0.9...v3.0.10) (2023-03-19)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/tester-plugin-tmp-dir to v2.1.16 ([9e55cce](https://github.com/dword-design/depcheck-special-nuxt/commit/9e55cce3c5f0e07c35a63341b96485954b3101b1))
+
 ## [3.0.9](https://github.com/dword-design/depcheck-special-nuxt/compare/v3.0.8...v3.0.9) (2023-03-19)
 
 
