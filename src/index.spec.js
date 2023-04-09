@@ -11,46 +11,46 @@ export default tester(
     'array syntax': {
       files: {
         'nuxt.config.js': endent`
-        export default {
-          modules: [
-            ['foo', { bar: 'baz' }],
-          ],
-        }
-      `,
+          export default {
+            modules: [
+              ['foo', { bar: 'baz' }],
+            ],
+          }
+        `,
       },
     },
     buildModules: {
       files: {
         'nuxt.config.js': endent`
-        export default {
-          buildModules: [
-            'foo',
-          ],
-        }
-      `,
+          export default {
+            buildModules: [
+              'foo',
+            ],
+          }
+        `,
       },
     },
     function: {
       files: {
         'nuxt.config.js': endent`
-        export default {
-          modules: [
-            'foo',
-            () => {},
-          ],
-        }
-      `,
+          export default {
+            modules: [
+              'foo',
+              () => {},
+            ],
+          }
+        `,
       },
     },
     modules: {
       files: {
         'nuxt.config.js': endent`
-        export default {
-          modules: [
-            'foo',
-          ],
-        }
-      `,
+          export default {
+            modules: [
+              'foo',
+            ],
+          }
+        `,
       },
     },
     'unused dependency': {
@@ -78,5 +78,5 @@ export default tester(
         }
       },
     },
-  ]
+  ],
 )
