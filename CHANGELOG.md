@@ -1,3 +1,10 @@
+## [3.0.15](https://github.com/dword-design/depcheck-special-nuxt/compare/v3.0.14...v3.0.15) (2023-04-09)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#70](https://github.com/dword-design/depcheck-special-nuxt/issues/70)) ([9150592](https://github.com/dword-design/depcheck-special-nuxt/commit/915059227d4f9252e574bd8793e7ff02082752f1))
+
 ## [3.0.14](https://github.com/dword-design/depcheck-special-nuxt/compare/v3.0.13...v3.0.14) (2023-03-21)
 
 
