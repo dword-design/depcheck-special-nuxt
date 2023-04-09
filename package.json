@@ -1,6 +1,6 @@
 {
   "name": "depcheck-special-nuxt",
-  "version": "3.0.16",
+  "version": "3.0.17",
   "description": "Depcheck special that detects dependencies in nuxt modules.",
   "repository": "dword-design/depcheck-special-nuxt",
   "funding": "https://github.com/sponsors/dword-design",
