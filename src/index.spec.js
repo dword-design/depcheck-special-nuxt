@@ -53,6 +53,53 @@ export default tester(
         `,
       },
     },
+    'relative path': {
+      fail: true,
+      files: {
+        'nuxt.config.js': endent`
+          export default {
+            modules: [
+              './modules/foo.js',
+            ],
+          }
+        `,
+      },
+    },
+    scoped: {
+      dependency: '@name/foo',
+      files: {
+        'nuxt.config.js': endent`
+          export default {
+            modules: [
+              '@name/foo',
+            ],
+          }
+        `,
+      },
+    },
+    'scoped and subpath': {
+      dependency: '@name/foo',
+      files: {
+        'nuxt.config.js': endent`
+          export default {
+            modules: [
+              '@name/foo/bar',
+            ],
+          }
+        `,
+      },
+    },
+    subpath: {
+      files: {
+        'nuxt.config.js': endent`
+          export default {
+            modules: [
+              'foo/bar',
+            ],
+          }
+        `,
+      },
+    },
     'unused dependency': {
       fail: true,
     },
@@ -60,21 +107,21 @@ export default tester(
   [
     testerPluginTmpDir(),
     {
-      transform: config => {
-        config = { fail: false, ...config }
+      transform: test => {
+        test = { dependency: 'foo', fail: false, ...test }
 
         return async () => {
-          await outputFiles(config.files)
+          await outputFiles(test.files)
 
           const result = await depcheck('.', {
             package: {
               dependencies: {
-                foo: '^1.0.0',
+                [test.dependency]: '^1.0.0',
               },
             },
             specials: [self],
           })
-          expect(result.dependencies.length > 0).toEqual(config.fail)
+          expect(result.dependencies.length > 0).toEqual(test.fail)
         }
       },
     },
