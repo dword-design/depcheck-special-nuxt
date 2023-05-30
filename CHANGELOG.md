@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/dword-design/depcheck-special-nuxt/compare/v3.0.28...v4.0.0) (2023-05-30)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#104](https://github.com/dword-design/depcheck-special-nuxt/issues/104)) ([688fd86](https://github.com/dword-design/depcheck-special-nuxt/commit/688fd86e4f52b5f5331fffbbae88df36333c6f08))
+
+
+### BREAKING CHANGES
+
+* drop node 14 support
+
 ## [3.0.28](https://github.com/dword-design/depcheck-special-nuxt/compare/v3.0.27...v3.0.28) (2023-04-12)
 
 
