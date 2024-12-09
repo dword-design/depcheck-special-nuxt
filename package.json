@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@dword-design/functions": "^4.0.0",
-    "jiti": "^1.6.3",
+    "jiti": "^2.0.0",
     "require-package-name": "^2.0.1"
   },
   "devDependencies": {
